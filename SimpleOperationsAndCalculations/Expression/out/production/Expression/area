@@ -1,0 +1,10 @@
+import java.util.Scanner;
+
+public class area {
+    public static void main(String[] args) {
+        Scanner scanner= new Scanner(System.nextLine());
+        double Side1= Double.parseDouble(System.nextLine());
+        double Side2=Double.parseDouble(System.nextLine());
+        System.out.println(Side1*Side2);
+    }
+}
